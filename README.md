@@ -16,7 +16,7 @@
 function compare() { // note the spacing
     var val = null // variable declarations in the function scope should be on top
     if (a < f) { // note the spacing
-        val = f // spacing after and before '=''
+        val = f // spacing after and before '='
     } else {
         val = a
     }
