@@ -54,8 +54,12 @@ function doSomething(a, b, c) { // notice the spacing
 
 1. Attributes,classes and ids should be named in kebab case, no camel case:
 
+```
 kebab-case
+```
+```
 connection-box
+```
 
 ```
 <connection class="small-box" my-attr="attrVal"></connection>
