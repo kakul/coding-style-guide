@@ -14,16 +14,16 @@
 
 ```
 function compare() { // note the spacing
-	var val = null // variable declarations in the function scope should be on top
-	if (a < f) { // note the spacing
-		val = f // spacing after and before '=''
-	} else { 
-		val = a
-	}
-	for (var i = 0; i < 10; i++) { //note the spacing
-		console.log('lol')
-	}
-	return val
+    var val = null // variable declarations in the function scope should be on top
+    if (a < f) { // note the spacing
+        val = f // spacing after and before '=''
+    } else {
+        val = a
+    }
+    for (var i = 0; i < 10; i++) { //note the spacing
+        console.log('lol')
+    }
+    return val
 }
 ```
 
@@ -32,15 +32,23 @@ function compare() { // note the spacing
 6.  If there are too many declarations, leave a blank line:
 ```
 function calculate() {
-	var a = 0
-	var b = 1
-	var c = 2
-
-	return a * b * c
+    var a = 0
+    var b = 1
+    var c = 2
+    
+    return a * b * c
 }
 ```
+7. Comment wherever possible before a function starts, if a function is having complex operations
 
-7. Comment whereever possible before a function starts, if a function is having complex operations
+8. Parameters and comma separated variables:
+
+```
+function doSomething(a, b, c) { // notice the spacing
+    var arr = [a, b, c] // spacing for array elements
+    return arr
+}
+```
 
 ### HTML:
 
@@ -55,7 +63,7 @@ connection-box
 
 this translates into:
 ```
-	myAttr = attrVal in Vue, angular
+myAttr = attrVal in Vue, angular
 ```
 2. Keep the names short and readable.
 
