@@ -71,9 +71,18 @@ myAttr = attrVal in Vue, angular
 ```
 2. Keep the names short and readable.
 
-CSS:
+### CSS:
 
-Refer the following:
-	
-https://github.com/airbnb/css
+Follow the naming conventions as used by Bootstrap
 
+1. `kebab-case` is the only way to name classes and ids, `camelCase`, `snake_case` or any mixtures are not preferred. Reason: Conventions followed by bootstrap, perhaps the most readable of all the available casings.
+
+2. follow proper indentation and spacing rules:
+
+```
+table-heading-large {
+    height: 100%,
+    width: 100%;
+    margin-top: 10px;
+}
+```
