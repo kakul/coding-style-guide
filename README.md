@@ -4,7 +4,7 @@
 
 1. Indent using spaces. Use 4 space characters for indentation
 
-2. variable names should be in camel case:  isLinked,
+2. Variable names should be in camel case:  isLinked,
 
 3. Keep the names as short and relevant as possible, increases readability
 
@@ -13,7 +13,7 @@
 5. Follow the following indentation and spacing pattern for functions 
 
 ```
-function compare() { // note the spacing
+function compare () { // note the spacing
     var val = null // variable declarations in the function scope should be on top
     if (a < f) { // note the spacing
         val = f // spacing after and before '='
@@ -31,7 +31,7 @@ function compare() { // note the spacing
 
 6.  If there are too many declarations, leave a blank line:
 ```
-function calculate() {
+function calculate () {
     var a = 0
     var b = 1
     var c = 2
@@ -44,7 +44,7 @@ function calculate() {
 8. Parameters and comma separated variables:
 
 ```
-function doSomething(a, b, c) { // notice the spacing
+function doSomething (a, b, c) { // notice the spacing
     var arr = [a, b, c] // spacing for array elements
     return arr
 }
